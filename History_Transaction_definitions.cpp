@@ -1,8 +1,7 @@
 ////////////////////////////////////
-// ECE 150: Project 4
-//
+// Project: Financial Robo Advisor
 // Authors: Bowen Zheng
-// compile and run this program with command
+// compile and run this program with command:
 // g++ -o main History_Transaction_definitions.cpp project4.cpp main.cpp -std=c++11      
 ////////////////////////////////////
 
@@ -221,7 +220,6 @@ History::History ()
 // Destructor
 // TASK 3
 // Destructor is a member function that automatically called when the object gose out of scope or gets de-allocated.
-
 History::~History ()
 {
   Transaction * current_transaction{p_head};
@@ -257,7 +255,6 @@ History::~History ()
       call insert
   close the file
 Data Structure:
-
 */
 void History::read_history()
 {
