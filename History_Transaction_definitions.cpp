@@ -1,8 +1,9 @@
 ////////////////////////////////////
 // Project: Financial Robo Advisor
-// Authors: Bowen Zheng
+// Authors: Bowen Zheng, Electrical Engineering, University of Waterloo
 // compile and run this program with command:
-// g++ -o main History_Transaction_definitions.cpp project4.cpp main.cpp -std=c++11      
+// g++ -o main History_Transaction_definitions.cpp project4.cpp main.cpp -std=c++11
+// ./main      
 ////////////////////////////////////
 
 #include <cassert>
