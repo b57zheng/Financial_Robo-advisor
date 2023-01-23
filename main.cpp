@@ -1,3 +1,11 @@
+////////////////////////////////////
+// Project: Financial Robo Advisor
+// Authors: Bowen Zheng, Electrical Engineering, University of Waterloo
+// compile and run this program with command:
+// g++ -o main History_Transaction_definitions.cpp project4.cpp main.cpp -std=c++11
+// ./main      
+////////////////////////////////////
+
 #include <iostream>
 #include "History.hpp"
 #include "Transaction.hpp"
